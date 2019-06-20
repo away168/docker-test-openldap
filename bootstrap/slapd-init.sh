@@ -37,7 +37,7 @@ EOL
 
 make_snakeoil_certificate() {
     echo "Make snakeoil certificate for ${LDAP_DOMAIN}..."
-    openssl req -subj "/CN=${LDAP_DOMAIN}" \
+    openssl req -subj "/CN=ldap" \
                 -new \
                 -newkey rsa:2048 \
                 -days 365 \
