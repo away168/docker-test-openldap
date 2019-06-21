@@ -3,8 +3,8 @@ objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
-cn:: Bender Bending Rodriquez
-sn:: Bender
+cn: Bender Bending Rodriquez
+sn: Bender
 description: Robot
 displayName: Bender
 employeeType: Ship's Robot
